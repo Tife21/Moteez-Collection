@@ -1,0 +1,1243 @@
+/*css file copyright 2022*/
+@charset 'UTF-8';
+
+* {
+	box-sizing: border-box;
+	font-family: trebuchet ms,tahoma,arial;
+	font-size: 14px;
+}
+
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+	overflow-x: hidden;
+}
+div.sec-1 {
+	height: 850px;
+	width: 100%;
+	background-color: #fff;
+}
+/**div.banner div.sec-1-90 {
+	width: 90%;
+	height: 100%;
+	background-color: #000;
+}
+div.banner div.sec-1-90 div.top-cont {
+	height: 15%;
+	width: 100%;
+	background-color: #fff;
+}
+
+div.top-cont span {
+	display: inline;
+}
+div.top-cont span.menu {
+	height: 100%;
+	width: 35%;
+	float: left;
+}
+div.top-cont span.menu ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+}
+div.top-cont span.menu ul li {
+	display: inline-grid;
+	width: 33.3%;
+	float: left;
+	margin-left: -60px;
+	margin-top: 52px;
+	font-size: 18px;
+}
+div.top-cont span.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+div.top-cont span.logo {
+	height: 100%;
+	width: 30%;
+	float: left;
+	margin-top: 40px;
+}
+div.top-cont span.icon {
+	height: 100%;
+	width: 35%;
+	float: left;
+}
+div.top-cont span.icon ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+}
+div.top-cont span.icon ul li {
+	display: inline;
+	width: 20%;
+}
+div.top-cont span.icon ul li a {
+	margin-left: 30px;
+	margin-top: 70px;
+}
+div.top-cont span.icon ul li:nth-child(3) {
+	margin-left: 50px;
+}
+div.mobile {
+	display: none;
+}
+.motion {
+	transition: .4s ease-in;
+}
+
+.position-rel {
+	position: relative;
+}
+
+.position-stick {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	z-index: 1000;
+	height: 95px;
+}
+
+.bg-white {
+	background-color: #fff !important;
+}**/
+
+div.banner {
+	height: 100%;
+	width: 100%;
+	background-color: #f2f2f2;
+	background-image: url('../media/pictures/ban6.jpg');
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+}
+
+div.banner div.sec-1-90 {
+	width: 100%;
+	height: 90px;
+}
+
+div.banner div.sec-1-90 span {
+	display: inline-flex;
+	float: left;
+}
+div.sec-1-90 span.menu {
+	height: 100%;
+	width: 35%;
+	float: left;
+}
+div.sec-1-90 span.menu ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+}
+div.sec-1-90 span.menu ul li {
+	display: inline-grid;
+	width: 33.3%;
+	float: left;
+	margin-left: -60px;
+	margin-top: 35px;
+	font-size: 18px;
+}
+div.sec-1-90 span.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+div.sec-1-90 span.logo {
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+div.sec-1-90 span.icon {
+	height: 50%;
+	width: 35%;
+	float: left;
+}
+div.sec-1-90 span.icon ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+div.sec-1-90 span.icon ul li {
+	display: inline;
+	width: 20%;
+}
+div.sec-1-90 span.icon ul li a {
+	text-decoration: none;
+	margin: 25px;
+	color: #000;
+	font-size: 20px;
+
+}
+div.sec-1-90 span.icon ul li:nth-child(3) {
+	margin-left: 30px;
+}
+
+div.sec-1-90 span.icon ul li a b {
+
+}
+div.mobile {
+	display: none;
+}
+.motion {
+	transition: .4s ease-in;
+}
+
+.position-rel {
+	position: relative;
+}
+
+.position-stick {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	z-index: 1000;
+	height: 10px;
+}
+
+.bg-white {
+	background-color: #fff !important;
+}
+
+div.banner h1 {
+	margin: 0 0 0 22px;
+	padding-top: 570px;
+	font-size: 70px;
+	color: #fff;
+	text-align: left;
+
+}
+
+div.banner h1 span {
+	margin: 0 0 0 30px;
+	padding-top: 70px;
+	font-size: 70px;
+	color: #e3e3e3
+}
+
+div.banner p {
+	padding-top: 15px;
+	font-size: 20px;
+	color: #fff;
+	margin: 0 0 0 30px;
+	text-align: left;
+}
+
+div.banner button {
+	height: 50px;
+	width: 150px;
+	border: none;
+	background-color: #fff;
+	margin: 20px 0 0 30px;
+	float: left;
+	border-radius: 3px;
+}
+div.banner button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 2px #ffffff;
+}
+div.banner button a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: 10px;
+}
+div.banner button a:hover {
+	color: #fff;
+}
+/**section 2**/
+div.sec-2 {
+	height: 700px;
+	width: 100%;
+	background-color: #fff;
+}
+div.sec-2 div.sec-2-90 {
+	width: 90%;
+	height: 100%;
+}
+div.sec-2 div.sec-2-90 div.head {
+	width: 100%;
+	height: 25%;
+	background-color: #fff;
+}
+div.sec-2 div.sec-2-90 div.head h2 {
+	font-size: 20px;
+	float: left;
+	margin-top: 120px;
+}
+div.sec-2 div.sec-2-90 div.item {
+	width: 100%;
+	height: 60%;
+	margin-bottom: 3%;
+}
+div.sec-2 div.sec-2-90 div.item span {
+	width: 23%;
+	height: 100%;
+	display: inline-grid;
+	margin-left: 1.5%; 
+	box-shadow: 0.8px 0.8px 7px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+}
+div.sec-2 div.sec-2-90 div.item span div {
+	width: 100%;
+	height: 100%;
+	/**background-color: #000;**/
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(1) {
+	height: 350px;
+	background-color: #000;
+	border-radius: 7px;
+
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) {
+	height: 60px;
+	background-color: #fff;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3 {
+	text-align: left ;
+	margin-top: 0;
+	margin-left: 8px;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3 span {
+	color: #b2b2b2;
+	text-align: left;
+	border: none;
+	box-shadow: none;
+	height: 0;
+	width: 100%;
+}	
+.nav-area {
+	position: absolute;
+	left: 50%;
+	margin-top: 6px;
+}
+.prev, .next {
+	border: none;
+	outline: none;
+	font-size: 20px;
+}
+.prev {
+	margin-right: 500px;
+}
+div.sec-2 div.sec-2-90 div.btn {
+	width: 100%;
+	height: 10%;
+}
+
+div.sec-2 div.sec-2-90 div.btn Button {
+	height: 40px;
+	width: 130px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 3px;
+}
+div.sec-2 div.sec-2-90 div.btn Button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 1.5px #000000;
+	color: #000000;
+}
+div.sec-2 div.sec-2-90 div.btn Button a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+div.sec-2 div.sec-2-90 div.btn Button a:hover{
+	color: #000000;
+}
+/**section 3**/
+div.sec-3 {
+	height: 700px;
+	width: 100%;
+	background-color: #fff;
+}
+div.sec-3 div.sec-3-90 {
+	width: 90%;
+	height: 100%;
+}
+div.sec-3 div.sec-3-90 div.head {
+	width: 100%;
+	height: 25%;
+	background-color: #fff;
+}
+div.sec-3 div.sec-3-90 div.head h2 {
+	font-size: 20px;
+	float: left;
+	margin-top: 120px;
+}
+div.sec-3 div.sec-3-90 div.item {
+	width: 100%;
+	height: 60%;
+	margin-bottom: 3%;
+}
+div.sec-3 div.sec-3-90 div.item span {
+	width: 23%;
+	height: 100%;
+	display: inline-grid;
+	margin-left: 1.5%; 
+	box-shadow: 0.8px 0.8px 7px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+}
+div.sec-3 div.sec-3-90 div.item span div {
+	width: 100%;
+	height: 100%;
+	/**background-color: #000;**/
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(1) {
+	height: 350px;
+	background-color: #000;
+	border-radius: 7px;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) {
+	height: 60px;
+	background-color: #fff;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) h3 {
+	text-align: left;
+	margin-top: 0;
+	margin-left: 8px;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) h3 span {
+	color: #b2b2b2;
+	text-align: left;
+	border: none;
+	box-shadow: none;
+	height: 0;
+	width: 100%;
+}
+div.sec-3 div.sec-3-90 div.btn {
+	width: 100%;
+	height: 10%;
+}
+div.sec-3 div.sec-3-90 div.btn Button {
+	height: 40px;
+	width: 130px;
+	margin-top: 5px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 3px;
+}
+div.sec-3 div.sec-3-90 div.btn Button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 1.5px #000000;
+}
+div.sec-3 div.sec-3-90 div.btn Button a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+div.sec-3 div.sec-3-90 div.btn Button a:hover {
+	color: #000000;
+}
+/**section 4 Trending**/
+div.sec-4 {
+	height: 700px;
+	width: 100%;
+	background-color: #fff;
+}
+div.sec-4-90 {
+	height: 100%;
+	width: 90%;
+	background-color: #000;
+	background-image: url('../media/pictures/2ban.jpg');
+	background-repeat: none;
+	background-position: top;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+div.sec-4-90 h1 {
+	margin: 0;
+	padding-top: 300px;
+	font-size: 55px;
+	color: #fff;
+}
+div.sec-4-90 button {
+	height: 50px;
+	width: 150px;
+	border: none;
+	background-color: #fff;
+	border-radius: 3px;
+}
+div.sec-4-90 button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 1.5px #000000;
+}
+div.sec-4-90 button a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+/**section 5 Top sellers**/
+div.sec-5 {
+	height: 700px;
+	width: 100%;
+	background-color: #fff;
+}
+div.sec-5-90 {
+	height: 100%;
+	width: 90%;
+}
+div.sec-5 div.sec-5-90 div.head {
+	width: 100%;
+	height: 25%;
+	background-color: #fff;
+}
+div.sec-5 div.sec-5-90 div.head h2 {
+	font-size: 20px;
+	float: left;
+	margin-top:100px;
+}
+div.sec-5 div.sec-5-90 div.item {
+	width: 100%;
+	height: 60%;
+	margin-bottom: 3%;
+}
+div.sec-5 div.sec-5-90 div.item span {
+	width: 23%;
+	height: 100%;
+	display: inline-grid;
+	margin-left: 1.5%; 
+	box-shadow: 0.8px 0.8px 7px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+}
+div.sec-5 div.sec-5-90 div.item span div {
+	width: 100%;
+	height: 100%;
+	/**background-color: #000;**/
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(1) {
+	height: 350px;
+	background-color: #000;
+	border-radius: 7px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) {
+	height: 60px;
+	background-color: #fff;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) h3 {
+	text-align: left ;
+	margin-top: 0;
+	margin-left: 8px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) h3 span {
+	color: #b2b2b2;
+	text-align: left;
+	border: none;
+	box-shadow: none;
+	height: 0;
+	width: 100%;
+}
+div.sec-5 div.sec-5-90 div.btn {
+	width: 100%;
+	height: 10%;
+}
+div.sec-5 div.sec-5-90 div.btn Button {
+	height: 40px;
+	width: 130px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 3px;
+}
+div.sec-5 div.sec-5-90 div.btn Button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 1.5px #000000;
+}
+div.sec-5 div.sec-5-90 div.btn Button a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+}
+div.sec-5 div.sec-5-90 div.btn Button a:hover {
+	color: #000000;
+}
+/**section 6**/
+div.sec-6 {
+	height: 700px;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+div.sec-6-90 {
+	width: 90%;
+	height: 100%;
+}
+div.sec-6-90 div:nth-child(1) {
+	height: 40%;
+	width: 100%;
+}
+div.sec-6-90 div:nth-child(1) h1 {
+	font-size: 28px;
+	margin: 0;
+	padding-top: 60px;
+}
+div.sec-6-90 div:nth-child(1) p {
+	font-size: 15px;
+	margin: 0;
+	margin-top: 15px;
+}
+div.sec-6-90 div:nth-child(1) span input {
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+}
+div.sec-6-90 div:nth-child(1) span Button {
+	height: 40px;
+	width: 100px;
+	background-color: #000;
+	border: none;
+}
+div.sec-6-90 div:nth-child(1) span Button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+div.sec-6-90 div:nth-child(2) {
+	height: 35%;
+	width: 100%;
+}
+div.sec-6-90 div:nth-child(2) span {
+	width: 23%;
+	height: 100%;
+	display: inline-grid;
+	margin: 0 12px 0 12px;
+	float: left;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0.8px 0.8px 7px rgba(0, 0, 0, 0.2);
+}
+div.sec-6-90 div:nth-child(3) {
+	height: 25%;
+	width: 100%;
+}
+div.sec-6-90 div:nth-child(3) button {
+	height: 50px;
+	width: 250px;
+	margin-top: 60px;
+	background-color: #000;
+	border: none;
+	border-radius: 3px;
+}
+div.sec-6-90 div:nth-child(3) button:hover {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: solid 1.5px #000000;
+}
+div.sec-6-90 div:nth-child(3) button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+div.sec-6-90 div:nth-child(3) button a:hover {
+	color: #000;
+}
+div.sec-7 {
+	height: 500px;
+	width: 100%;
+	background-color: #000;
+}
+div.sec-7-90 {
+	width: 90%;
+	height: 100%;
+}
+div.sec-7-90 div:nth-child(1) {
+	height: 75%;
+	width: 100%;
+}
+div.sec-7-90 div:nth-child(1) span {
+	display: inline-grid;
+	margin: 0 10px 0 10px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(1) img {
+	margin-top: 90px;
+	margin-left: 50px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(1), div.sec-7-90 div:nth-child(1) span:nth-child(4) {
+	width: 25%;
+	height: 100%;
+	text-align: left; 
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2), div.sec-7-90 div:nth-child(1) span:nth-child(3) {
+	width: 20%;
+	height: 100%;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2) ul, div.sec-7-90 div:nth-child(1) span:nth-child(3) ul {
+	list-style-type: none;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2) ul li, div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li {
+	margin-top: 35px;
+	text-align: left;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2) ul li a, div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding-top: 0;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2) ul li:nth-child(1), div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li:nth-child(1) {
+	color: #fff;
+	font-size: 18px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) h1 {
+	color: #fff;
+	margin-top: 60px;
+	text-align: left;
+	font-size: 20px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) p {
+	color: #fff;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: left;
+	font-size: 15px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) input {
+	height: 45px;
+	width: 300px;
+	padding-top: 0;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) button {
+	height: 45px;
+	width: 100px;
+	background-color: #fff;
+	border: none;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) button a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+}
+div.sec-7-90 div:nth-child(2) {
+	height: 20%;
+	width: 100%;
+	border-top: solid 0.5px #fff;/**to change color to white**/
+	margin-top: 20px;
+}
+div.sec-7-90 div:nth-child(2) p {
+	color: #ffffff;
+	font-size: 18px;
+}
+
+
+/* general mobile rendering */
+
+/*Tablets rendering*/
+
+@media screen and (max-device-width: 780px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+	div.sec-1 {
+  height: 650px;
+  width: 100%;
+  background-color: #fff;
+}
+	
+	div.banner {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+  background-image: url('../media/pictures/ban6.jpg');
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+div.banner div.sec-1-90 {
+  width: 100%;
+  height: 100px;
+}
+.position-rel {
+  position: relative;
+}
+.motion {
+  transition: .4s ease-in;
+}
+
+ div.mobile {
+	display: block;
+	text-align: left;
+}
+div.mobile div {
+	width: 45%;
+	display: inline-grid;
+}
+div.banner div.sec-1-90 div.mobile div.button {
+	padding: 25px 0 0 15px;
+}
+div.banner div.sec-1-90 div.mobile div.button a {
+	font-size: 20px;
+	color: #000000;
+}
+div.banner div.sec-1-90 div.mobile div.button a:hover {
+	color: #e8e8e8;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu {
+	  display: none;
+		width: 60%;
+		height: 1000px;
+		text-align: left;
+		position: absolute;
+		right: 200px;
+		background-color: #e8e8e8;
+		padding: 20px;
+		margin-top: -50px;
+		border-radius: 4px;
+		transition: 5s;
+}
+div.sec-1-90 div.mobile div.drop-menu div.button a.closebtn {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	font-size: 35px !important;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span {
+	height: 100px;
+	display: inline-grid;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span ul {
+	display: block;
+	list-style-type: none;
+	margin-left: -30px;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span ul li {
+	margin-bottom: 7px;
+	float: left;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span ul li:hover {
+	background-color: #ffffff;
+	width: 100%;
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span ul li:nth-child(1),div.banner div.sec-1-90 div.mobile div.drop-menu span ul li:nth-child(2) {
+	border-bottom: solid 2.5px #000000;
+	width: 250px;
+
+}
+div.banner div.sec-1-90 div.mobile div.drop-menu span ul li h3 a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+}
+div.banner div.sec-1-90 span {
+  display: none;
+  float: left;
+}
+div.sec-1-90 span.menu {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+div.sec-1-90 span.logo {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+div.sec-1-90 span.icon ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 70px;
+  display: none;
+}
+div.banner h1 {
+  margin: 0 0 0 25px;
+  padding-top: 140px;
+  font-size: 50px;
+  color: #fff;
+  text-align: left;
+}
+div.banner h1 span {
+  margin: 0 0 0 30px;
+  padding-top: 50px;
+  font-size: 50px;
+  color: #e3e3e3;
+}
+div.banner p {
+  padding-top: 15px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 0 30px;
+  text-align: left;
+}
+div.banner button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: #fff;
+  margin: 20px 0 0 30px;
+  float: left;
+}
+div.banner button a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+div.sec-2 {
+  height: 950px;
+  width: 100%;
+  background-color: #fff;
+}
+div.sec-2 div.sec-2-90 {
+  width: 90%;
+  height: 100%;
+}
+div.sec-2 div.sec-2-90 div.head {
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+}
+div.sec-2 div.sec-2-90 div.head h2 {
+  font-size: 18px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+div.sec-2 div.sec-2-90 div.item {
+  width: 100%;
+  height: 25%;
+  margin-top: -120px;
+}
+
+div.sec-2 div.sec-2-90 div.item span {
+  width: 90%;
+  height: 400px;
+  margin-left: 1.5%;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(1) {
+	margin-top: 20px;
+}
+
+div.sec-2 div.sec-2-90 div.item span:nth-child(2) {
+	margin-top: 30px;
+}
+div.sec-2 div.sec-2-90 div.item span:nth-child(3),div.sec-2 div.sec-2-90 div.item span:nth-child(4) {
+	display: none;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) {
+	margin-top: 10px;
+	margin-left: 45px;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3 span {
+	margin-top: 0;
+}
+div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3:nth-child(2) {
+	margin-top: -400px;
+}
+div.sec-2 div.sec-2-90 div.btn {
+  width: 100%;
+  height: 5%;
+  margin-top: 700px;
+}
+/** section 3**/
+div.sec-3 {
+  height: 1100px;
+  width: 100%;
+  background-color: #fff;
+}
+div.sec-3 div.sec-3-90 div.head {
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+}
+div.sec-3 div.sec-3-90 div.head h2 {
+  font-size: 18px;
+  float: left;
+  margin-top: 50px;
+}
+div.sec-3 div.sec-3-90 div.item {
+  width: 100%;
+  height: 400px;
+  margin-top: -120px;
+}
+div.sec-3 div.sec-3-90 div.item span {
+  width: 90%;
+  height: 50px
+  margin-left: 1.5%;
+}
+
+div.sec-3 div.sec-3-90 div.item span div:nth-child(1) {
+	height: 250px;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) {
+	height: 50px;
+	margin-top: 20px;
+}
+	div.sec-3 div.sec-3-90 div.item span:nth-child(2) {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) h3 {
+	text-align: left ;
+	margin-top: 0;
+	margin-left: 45px;
+}
+div.sec-3 div.sec-3-90 div.item span div:nth-child(2) h3 span {
+	color: #b2b2b2;
+	text-align: left;
+	margin-top: 0;
+}
+div.sec-3 div.sec-3-90 div.item span:nth-child(3), div.sec-3 div.sec-3-90 div.item span:nth-child(4) {
+	display: none;
+}
+
+div.sec-3 div.sec-3-90 div.btn {
+  width: 100%;
+  height: 5%;
+  margin-top: 550px;
+}
+/**section 4**/
+div.sec-4 {
+  height: 500px;
+  width: 100%;
+  background-color: #fff;
+}
+div.sec-4-90 h1 {
+  margin: 0;
+  padding-top: 200px;
+  font-size: 45px;
+  color: #fff;
+}
+div.sec-4-90 button {
+  height: 45px;
+  width: 120px;
+  border: none;
+  background-color: #fff;
+}
+/**section 5**/
+div.sec-5 {
+  height: 1100px;
+  width: 100%;
+  background-color: #fff;
+}
+div.sec-5-90 {
+  height: 100%;
+  width: 90%;
+}
+div.sec-5 div.sec-5-90 div.head {
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+div.sec-5 div.sec-5-90 div.head h2 {
+	font-size: 18px;
+  float: left;
+  margin-top: 50px;
+}
+div.sec-5 div.sec-5-90 div.item {
+  width: 100%;
+  height: 400px;
+  margin-top: -120px;
+}
+div.sec-5 div.sec-5-90 div.item span {
+  width: 90%;
+  height: 50px
+  margin-left: 1.5%;
+}
+div.sec-5 div.sec-5-90 div.item span div {
+	height: 100px;
+  margin-bottom: 30px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(1) {
+	height: 250px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) {
+	height: 50px;
+	margin-top: 20px;
+}
+	div.sec-5 div.sec-5-90 div.item span:nth-child(2) {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) h3 {
+	text-align: left ;
+	margin-top: 0;
+	margin-left: 45px;
+}
+div.sec-5 div.sec-5-90 div.item span div:nth-child(2) h3 span {
+	color: #b2b2b2;
+	text-align: left;
+	margin-top: 0;
+}
+div.sec-5 div.sec-5-90 div.item span:nth-child(3), div.sec-5 div.sec-5-90 div.item span:nth-child(4) {
+	display: none;
+}
+div.sec-5 div.sec-5-90 div.btn {
+  width: 100%;
+  height: 5%;
+  margin-top: 550px;
+}
+/**section 6**/
+div.sec-6 {
+  height: 900px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+div.sec-6-90 div:nth-child(1) {
+  height: 25%;
+  width: 100%;
+
+}
+div.sec-6-90 div:nth-child(1) h1 {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 30px;
+}
+div.sec-6-90 div:nth-child(1) p {
+  font-size: 13px;
+  margin: 0;
+  margin-top: 10px;
+}
+div.sec-6-90 div:nth-child(1) span input {
+  margin-top: 15px;
+  margin-right: 20px;
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+}
+div.sec-6-90 div:nth-child(1) span Button {
+  height: 35px;
+  width: 100px;
+  background-color: #000;
+  border: none;
+}
+div.sec-6-90 div:nth-child(2) {
+  height: 35%;
+  width: 100%;
+  margin-top: -40px;
+  margin-left: 40px;
+}
+div.sec-6-90 div:nth-child(2) span {
+  width: 96%;
+  height: 100%;
+  margin: 0 12px 0 12px;
+}
+div.sec-6-90 div:nth-child(2) span:nth-child(3), div.sec-6-90 div:nth-child(2) span:nth-child(4) {
+	display: none;
+}
+div.sec-6-90 div:nth-child(3) button {
+  height: 50px;
+  width: 200px;
+  background-color: #000;
+  border: none;
+  margin-top: 5px;
+}
+/**section 7**/
+div.sec-7 {
+  height: 600px;
+  width: 100%;
+  background-color: #000;
+}
+div.sec-7-90 {
+  width: 90%;
+  height: 100%;
+}
+div.sec-7-90 div:nth-child(1) {
+  height: 80%;
+  width: 100%;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(1), div.sec-7-90 div:nth-child(1) span:nth-child(2), div.sec-7-90 div:nth-child(1) span:nth-child(3), div.sec-7-90 div:nth-child(1) span:nth-child(4) {
+  width: 24%;
+  height: 50%;
+  text-align: left;
+  float: left;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(3), div.sec-7-90 div:nth-child(1) span:nth-child(4) {
+	margin-top: -20px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li {
+	margin-left: -20px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) {
+	margin-left: 100px;
+	margin-top: -45px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) h1 {
+	font-size: 18px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) p {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) input {
+	height: 30px;
+	width: 200px;
+	padding-top: 0;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) button {
+	height: 30px;
+	width: 70px;
+	background-color: #fff;
+	border: none;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(4) button a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(1){
+	margin-right: 100px;
+	float: left;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(1) a img {
+	max-width: 160%;
+	margin-left: -10px;
+	margin-top: 100pxpx;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(2) ul li, div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li  {
+	margin-top: 20px;
+}
+div.sec-7-90 div:nth-child(1) span:nth-child(3) ul li {
+	margin-top: 20px;
+}
+div.sec-7-90 div:nth-child(2) {
+	height: 20%;
+	width: 100%;
+	border-top: solid 0.5px #fff;/**to change color to white**/
+	margin-top: 20px;
+}
+div.sec-7-90 div:nth-child(2) p {
+	color: #ffffff;
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 380px) {
+	
+}
+
+/* ipad, ipod, iphone rendering */
+
+@media only screen and (device-width: 780px) {
+
+}
+
+@media screen and (device-width: 480px) {
+
+}
+
+@media screen and (device-width: 380px) {
+
+}
