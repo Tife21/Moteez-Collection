@@ -66,9 +66,10 @@ var myslide = item.getElementsByClassName("myslide");
     }
 
     function prev(){
-    	slider.prepend(myslide[myslide.lenght - 1]);
+    	slider.prepend(myslide[3]);
     }
-    console.log(myslide);
+    //console.log(myslide);
+    //console.log(slider);
 
 window.onscroll = () => {  
 	stickydiv();

@@ -310,18 +310,23 @@ div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3 span {
 	height: 0;
 	width: 100%;
 }	
-.nav-area {
+div.nav-area {
 	position: absolute;
-	left: 50%;
-	margin-top: 6px;
 }
 .prev, .next {
 	border: none;
 	outline: none;
 	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	border-radius: 50px;
 }
-.prev {
-	margin-right: 500px;
+div.nav-area button.prev {
+	margin-left: -30px;
+}
+div.nav-area button.next {
+	margin-right: -2900px;
 }
 div.sec-2 div.sec-2-90 div.btn {
 	width: 100%;
