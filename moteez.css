@@ -177,9 +177,9 @@ div.sec-1-90 span.icon ul li:nth-child(3) {
 	margin-left: 30px;
 }
 
-div.sec-1-90 span.icon ul li a b {
+/* div.sec-1-90 span.icon ul li a b {
 
-}
+} */
 div.mobile {
 	display: none;
 }
@@ -310,23 +310,25 @@ div.sec-2 div.sec-2-90 div.item span div:nth-child(2) h3 span {
 	height: 0;
 	width: 100%;
 }	
-div.nav-area {
-	position: absolute;
-}
+
 .prev, .next {
 	border: none;
 	outline: none;
+	position: absolute;
 	font-size: 20px;
+	
 	width: 50px;
 	height: 50px;
 	padding: 15px;
 	border-radius: 50px;
 }
 div.nav-area button.prev {
-	margin-left: -30px;
+	left: 1%;
+	top:180%;
 }
 div.nav-area button.next {
-	margin-right: -2900px;
+	right:1%;
+	top: 180%;
 }
 div.sec-2 div.sec-2-90 div.btn {
 	width: 100%;
@@ -974,7 +976,7 @@ div.sec-3 div.sec-3-90 div.item {
 }
 div.sec-3 div.sec-3-90 div.item span {
   width: 90%;
-  height: 50px
+  height: 50px;
   margin-left: 1.5%;
 }
 
@@ -1054,7 +1056,7 @@ div.sec-5 div.sec-5-90 div.item {
 }
 div.sec-5 div.sec-5-90 div.item span {
   width: 90%;
-  height: 50px
+  height: 50px;
   margin-left: 1.5%;
 }
 div.sec-5 div.sec-5-90 div.item span div {
